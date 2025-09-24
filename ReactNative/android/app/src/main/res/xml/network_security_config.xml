@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+  <!-- 기본은 차단 -->
+  <base-config cleartextTrafficPermitted="false" />
+  <!-- 이 도메인만 HTTP 허용 -->
+    <domain includeSubdomains="true">127.0.0.1</domain>
+  </domain-config>
+</network-security-config>
